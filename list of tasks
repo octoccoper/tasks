@@ -1,7 +1,6 @@
 1. twoSum.js
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 Example:
@@ -21,11 +20,17 @@ If there is no extension in the string - throw an exception.
 Function that find and select user text.
 
 4. vowelsAndConsonants.js
-Complete the vowelsAndConsonants function in the editor below. It has one parameter, a string, s consisting of lowercase English alphabetic letters (i.e., a through z). 
-The function must do the following:
 
-    First, print each vowel in on a new line. The English vowels are a, e, i, o, and u, and each vowel must be printed in the same order as it appeared in s.
-    Second, print each consonant (i.e., non-vowel) in on a new line in the same order as it appeared in s.
+Complete the vowelsAndConsonants function. 
+It has one parameter, a string, s consisting of lowercase English alphabetic letters (i.e., a through z). 
+The function must do the following:
+First, print each vowel in on a new line. The English vowels are a, e, i, o, and u, and each vowel must be printed in the same order as it appeared in s.
+Second, print each consonant (i.e., non-vowel) in on a new line in the same order as it appeared in s.
+
+5. 
+Complete the function that return a boolean variable, re, that return true when our RegExp object matches any string that begins and ends with the same vowel. 
+
+
 
 
 
