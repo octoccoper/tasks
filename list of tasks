@@ -27,8 +27,31 @@ The function must do the following:
 First, print each vowel in on a new line. The English vowels are a, e, i, o, and u, and each vowel must be printed in the same order as it appeared in s.
 Second, print each consonant (i.e., non-vowel) in on a new line in the same order as it appeared in s.
 
-5. 
+5. regExpVar.js
 Complete the function that return a boolean variable, re, that return true when our RegExp object matches any string that begins and ends with the same vowel. 
+
+
+6. reverseNumber.js
+Given a 32-bit signed integer, reverse digits of an integer.
+
+Example 1:
+
+Input: 123
+Output: 321
+
+Example 2:
+
+Input: -123
+Output: -321
+
+Example 3:
+
+Input: 120
+Output: 21
+
+Note:
+Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. 
+For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 
 
