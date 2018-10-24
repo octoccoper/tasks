@@ -12,7 +12,7 @@ var reverse = function (x) {
             }
         }
 
-        joinString = splitString.join("");
+        var joinString = splitString.join("");
         var splittedNumber = parseInt(joinString);
 
         if (sign === -1) {
