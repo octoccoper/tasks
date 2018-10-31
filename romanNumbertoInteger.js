@@ -36,8 +36,11 @@ console.log(romanNumber[i]);
 	romanNumber = undefined;
        }
 for (var j = 1; j < romanNumber.length; j++) {
-if(romanNumber[j] > romanNumber[i]) {
-output = output + romanNumber[j] - romanNumber[i]; 
+console.log("yes, we are in second for!");
+if(romanNumber[j] < romanNumber[i]) {
+console.log("romanNumber[i]",romanNumber[i]);
+console.log("romanNumber[j]",romanNumber[j]);
+output = output + romanNumber[i] - romanNumber[j]; 
 console.log(output);
 }
 }
