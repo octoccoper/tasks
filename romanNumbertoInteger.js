@@ -1,32 +1,52 @@
 var output = 0;
 var romanToInt = function(s) {
-s.split("").forEach(function(key) {
-if(s.length === 1)
-switch(key) {
+var romanNumber = s.split("");
+if(romanNumber.length > 0) {
+for(var i = 0; i < romanNumber.length; i++) {
+switch(romanNumber[i]) {
     case "I":
-        output = 1;
+        romanNumber[i] = 1;
+console.log(romanNumber[i]);
 		break;
     case "V":
-        output = 5;
+        romanNumber[i]= 5;
+console.log(romanNumber[i]);
 		break;
     case "X":
-        output = 10;
+        romanNumber[i] = 10;
+console.log(romanNumber[i]);
 		break;
     case "L":
-        output = 50;
+        romanNumber[i] = 50;
+console.log(romanNumber[i]);
 		break;
     case "C":
-        output = 100;
+        romanNumber[i] = 100;
+console.log(romanNumber[i]);
 		break;
     case "D":
-        output = 500;
+        romanNumber[i] = 500;
+console.log(romanNumber[i]);
 		break;
     case "M":
-        output = 1000;
+        romanNumber[i] = 1000;
+console.log(romanNumber[i]);
 		break;
     default:
-	output = 0;
-       } 
-    });
-return sum;
+	romanNumber = undefined;
+       }
+for (var j = 1; j < romanNumber.length; j++) {
+if(romanNumber[j] > romanNumber[i]) {
+output = output + romanNumber[j] - romanNumber[i]; 
+console.log(output);
+}
+}
+}
+ }
+ else {
+	output = -1;
+}
+
+console.log(romanNumber);
+console.log(output);
 };
