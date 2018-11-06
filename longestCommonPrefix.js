@@ -1,15 +1,15 @@
 var longestCommonPrefix = function(strs) {
-var resultStr="", resultStrTmp="";
+var resultStr="";
 var sortStr = strs.sort(function(a, b){return a.length - b.length});
 var strFirst = sortStr[0];
-for(var i = 0; i < strFirst.length; i++) {
+for(var i = 0; i < sortStr.length; i++) {
 var tempStr = sortStr[i];
-for(var j = 0; j < tempStr.length; j++){
+for(var j = 0; j < strFirst.length; j++){
 if(sortStr[i + 1]!== undefined){
 		if(sortStr[i][j] === sortStr[i + 1][j]) {
-			resultStrTmp = resultStrTmp.concat(sortStr[i][j]);
-			console.log(resultStrTmp);
-                }
+			resultStr = resultStr.concat(sortStr[i][j]);
+			console.log(resultStr);
+        }
 
 }
 	}
