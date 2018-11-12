@@ -1,5 +1,7 @@
 These are some tasks from 
-https://leetcode.com 
-https://skillotron.com
-https://www.hackerrank.com
+
+a) https://leetcode.com 
+b) https://skillotron.com
+c) https://www.hackerrank.com
+d) udemy.com
 and head
