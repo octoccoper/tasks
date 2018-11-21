@@ -266,3 +266,6 @@ s = "loveleetcode",
 return 2.
 
 Note: You may assume the string contain only lowercase letters. 
+
+18. arrWithlengths.js
+It need to obtain from the array of strings a new array containing their lengths.
