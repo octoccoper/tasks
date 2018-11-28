@@ -274,6 +274,9 @@ It need to obtain from the array of strings a new array containing their lengths
 Get string value from prompt and return sliced value to n symbols (variable n setted).
 If string length < n give an message about it.
 
+20. fibonacciGenerator.js
+Create a function where you can call it by writing the code fibonacciGenerator (n).
+Where n is the number of items in the sequence.
 
 
 
