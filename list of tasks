@@ -269,3 +269,11 @@ Note: You may assume the string contain only lowercase letters.
 
 18. arrWithlengths.js
 It need to obtain from the array of strings a new array containing their lengths.
+
+19. getSlicedString.js 
+Get string value from prompt and return sliced value to n symbols (variable n setted).
+If string length < n give an message about it.
+
+
+
+
