@@ -12,7 +12,7 @@ return [0, 1].
 
 2. findExtension.js
 
-The function takes a string with the file name and returns the extension (fragment after the last dot). 
+The function takes a string with the file name and returns the extension (fragment after the last dot).
 If there is no extension in the string - throw an exception.
 
 3. selectionText.js
@@ -21,14 +21,14 @@ Function that find and select user text.
 
 4. vowelsAndConsonants.js
 
-Complete the vowelsAndConsonants function. 
-It has one parameter, a string, s consisting of lowercase English alphabetic letters (i.e., a through z). 
+Complete the vowelsAndConsonants function.
+It has one parameter, a string, s consisting of lowercase English alphabetic letters (i.e., a through z).
 The function must do the following:
 First, print each vowel in on a new line. The English vowels are a, e, i, o, and u, and each vowel must be printed in the same order as it appeared in s.
 Second, print each consonant (i.e., non-vowel) in on a new line in the same order as it appeared in s.
 
 5. regExpVar.js
-Complete the function that return a boolean variable, re, that return true when our RegExp object matches any string that begins and ends with the same vowel. 
+Complete the function that return a boolean variable, re, that return true when our RegExp object matches any string that begins and ends with the same vowel.
 
 
 6. reverseNumber.js
@@ -50,13 +50,13 @@ Input: 120
 Output: 21
 
 Note:
-Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. 
+Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1].
 For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 
 7. tripletsFind.js
 Task:
-Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? 
+Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?
 Find all unique triplets in the array which gives the sum of zero.
 
 
@@ -97,8 +97,8 @@ For example, two is written as II in Roman numeral, just two one's added togethe
 
 Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
 
-    I can be placed before V (5) and X (10) to make 4 and 9. 
-    X can be placed before L (50) and C (100) to make 40 and 90. 
+    I can be placed before V (5) and X (10) to make 4 and 9.
+    X can be placed before L (50) and C (100) to make 40 and 90.
     C can be placed before D (500) and M (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
@@ -208,19 +208,19 @@ If no such index exists, we should return -1. If there are multiple pivot indexe
 
 Example 1:
 
-Input: 
+Input:
 nums = [1, 7, 3, 6, 5, 6]
 Output: 3
-Explanation: 
+Explanation:
 The sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum of numbers to the right of index 3.
 Also, 3 is the first index where this occurs.
 
 Example 2:
 
-Input: 
+Input:
 nums = [1, 2, 3]
 Output: -1
-Explanation: 
+Explanation:
 There is no index that satisfies the conditions in the problem statement.
 
 
@@ -265,12 +265,12 @@ return 0.
 s = "loveleetcode",
 return 2.
 
-Note: You may assume the string contain only lowercase letters. 
+Note: You may assume the string contain only lowercase letters.
 
 18. arrWithlengths.js
 It need to obtain from the array of strings a new array containing their lengths.
 
-19. getSlicedString.js 
+19. getSlicedString.js
 Get string value from prompt and return sliced value to n symbols (variable n setted).
 If string length < n give an message about it.
 
@@ -278,5 +278,8 @@ If string length < n give an message about it.
 Create a function where you can call it by writing the code fibonacciGenerator (n).
 Where n is the number of items in the sequence.
 
-
-
+21. showCurrentDayTime.js
+Write a JavaScript function to display the current day and time in the following format.
+Sample Output :
+Today is : Tuesday.
+Current time is : 10 PM : 30 : 38
