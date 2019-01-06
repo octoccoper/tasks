@@ -8,4 +8,4 @@ e) https://www.w3resource.com
 j) https://exercism.io/
 and head
 
-There are list of tasks with explanation in "list of tasks.txt" file.
+There are list of tasks with explanation in "list_of_tasks.txt" file.
