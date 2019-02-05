@@ -324,3 +324,6 @@ Explanation:
 "bbaA" is also a valid answer, but "Aabb" is incorrect.
 Note that 'A' and 'a' are treated as two different characters.
 
+
+23. formatDate.js
+Write a JavaScript function to display user entered date(M/D/YYYY) to the following format:  YYYYMMDD
