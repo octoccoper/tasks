@@ -362,4 +362,15 @@ Note:
     words[i] will only consist of lowercase letters.
 
 
+25.beautifyString.js
+
+Write function beautifyString(origin, exclusions).
+origin - original line
+exclusions - line with exclusions words
+
+The function must remove words that have numbers or special symbols(except a-Z).
+Remove words that are present in the second line.
+Remove duplicates.
+Sorting words by length and alphabetically.
+Process exceptions.
 
