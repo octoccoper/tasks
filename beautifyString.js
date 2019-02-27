@@ -1,11 +1,14 @@
 function beautifyString(org, excl) { 
-  let pattern = new RegExp(/[^A-z]*/g);
-  let newString = org.replace(pattern, '');
+  let temp = org.split(" ");
+  let newString = "";
   for (let i = 0; i < temp.length; i++) {
-    if (org[i].match(/\\d+\\.?\\d*/g)) {
-      org.splice(i, 1);
+	console.log("temp[",i,"]", temp[i]);
+    if (temp[i].match(/[^a-zA-Z]/g)) {
+      let some = temp.splice(i, 1);
+		console.log("remove ", some);
+		i--;
     } else { 
-      newString += org[i];
+      newString += temp[i] + " ";
     }
   }
   return newString;
