@@ -376,3 +376,11 @@ Process exceptions.
 
 26. reverseString2.js
 Write a recursive function called reverse which accepts a string and returns a new string in reverse.
+
+27. isStringPalindrome.js
+Write a recursive function called isStringPalindrome which returns true if the string passed to it is a palindrome (reads the same forward and backward). Otherwise it returns false.
+
+28. vowelCount.js
+Return the number (count) of vowels in the given string.
+We will consider a, e, i, o, u as vowels (but not y).
+The input string will only consist of lower case letters and/or spaces.
