@@ -384,3 +384,9 @@ Write a recursive function called isStringPalindrome which returns true if the s
 Return the number (count) of vowels in the given string.
 We will consider a, e, i, o, u as vowels (but not y).
 The input string will only consist of lower case letters and/or spaces.
+
+29. sort-the-odd.js
+You have an array of numbers.
+Your task is to sort ascending odd numbers but even numbers must be on their places.
+Zero isn't an odd number and you don't need to move it. If you have an empty array, you need to return it.
+
