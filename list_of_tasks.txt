@@ -399,3 +399,12 @@ Zero isn't an odd number and you don't need to move it. If you have an empty arr
 Given an array of integers, find the one that appears an odd number of times.
 
 There will always be only one integer that appears an odd number of times.
+
+31. splitStrings.js
+
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+
+Examples:
+
+solution('abc') // should return ['ab', 'c_']
+solution('abcdef') // should return ['ab', 'cd', 'ef']
