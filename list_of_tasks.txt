@@ -422,3 +422,20 @@ For example:
                         // 1*2*6 = 12, and finally 1*2 = 2
 
  persistence(4) === 0 // because 4 is already a one-digit number
+
+33. chainAddingFunction.js
+
+We want to create a function that will add numbers together when called in succession.
+
+add(1)(2);
+// returns 3
+We also want to be able to continue to add numbers to our chain.
+
+add(1)(2)(3); // 6
+add(1)(2)(3)(4); // 10
+add(1)(2)(3)(4)(5); // 15
+and so on.
+
+A single call should return the number passed in.
+
+add(1); // 1
